@@ -1,2 +1,2 @@
 # html-css
- Repo para estudos do Curso em Video
+ Repositório para estudos do Curso em Video do curso de HTML e CSS
