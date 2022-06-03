@@ -1,0 +1,35 @@
+/*Passion One Regular*/
+@font-face {
+    font-family: "Passion One";
+    src: url("../fonts/passion-one/PassionOne-Regular.otf") format("OpenType");
+}
+
+/*SF Cartoonist Hand Bold Italic*/
+@font-face {
+    font-family: "Cartoonist Hand";
+    src: url("../fonts/SF-Cartoonist-Hand/SF_Cartoonist_Hand_Bold_Italic.ttf") format("TrueType");
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    margin: -21px -8px 0px -8px;
+    padding: 50px 0px;
+}
+
+header h1 {
+    font-family: "Passion One";
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+header p {
+    font-family: sans-serif;
+}
+
+main p {
+    font-family: "Cartoonist Hand";
+    font-size: 30px;
+    margin-left: 32px;
+}
