@@ -19,28 +19,29 @@ header {
 }
 
 header h1 {
-    font-family: "Passion One";
-    font-size: 5vw;
+    font-family: "Passion One", sans-serif;
+    font-size: 60px;
+    
     margin-bottom: 0px;
 }
 
 header p {
     font-family: sans-serif;
+    font-size: 15px;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
 main p {
-    font-family: "Cartoonist Hand";
-    /* font-size: 30px; */
-    font-size: 2vw;
+    font-family: "Cartoonist Hand", cursive;
+    font-size: 30px;
     padding-left: 30px;
 }
 
@@ -48,11 +49,14 @@ main p {
     background-image: url("../img/background001.jpg"), url("../img/background002.jpg");
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
 }
 
 #bg02 {
     background-image: url("../img/background002.jpg");
     background-attachment: fixed;
+    background-position: left center;
+    background-size: cover;
 }
 
 section {
@@ -63,16 +67,22 @@ section {
     background-color: white;
 }
 
-.white-text {
+#sept02, #sept05 {
+    box-shadow: inset 0px 1px 8px black;
+}
+
+.black-box {
     color: white;
     background-color: rgba(0, 0, 0, 0.466);
-    width: 21vw;
-    margin-left: 30px;
+    width: 324px;
+    margin-left: 22px;
     border-radius: 5px;
 }
 
-.white-text > p {
-    padding-left: 3px;
+.black-box > p {
+    padding-left: 8px;
+    padding-right: 3px;
+    text-shadow: 0px 2px 8px black;
 }
 
 footer {
