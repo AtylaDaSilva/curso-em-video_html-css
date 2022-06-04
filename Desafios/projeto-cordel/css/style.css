@@ -20,7 +20,7 @@ header {
 
 header h1 {
     font-family: "Passion One";
-    font-size: 80px;
+    font-size: 5vw;
     margin-bottom: 0px;
 }
 
@@ -30,6 +30,56 @@ header p {
 
 main p {
     font-family: "Cartoonist Hand";
-    font-size: 30px;
-    margin-left: 32px;
+    /* font-size: 30px; */
+    font-size: 2vw;
+    padding-left: 30px;
+}
+
+#bg01 {
+    background-image: url("../img/background001.jpg"), url("../img/background002.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#bg02 {
+    background-image: url("../img/background002.jpg");
+    background-attachment: fixed;
+}
+
+section {
+    padding: 5px 0px;
+}
+
+#sept01, #sept03, #sept04, #sept06, #sept07 {
+    background-color: white;
+}
+
+#sept01, #sept04 {
+    
+}
+
+.white-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 21vw;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.white-text > p {
+    padding-left: 3px;
+}
+
+footer {
+    background-color: black;
+    margin: 0px -8px -8px -8px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 5px;
 }
