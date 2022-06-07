@@ -13,7 +13,7 @@
             border-collapse: collapse;
             width: 400px;
             height: 30px;
-            
+            position: relative;
         }
 
         tr:nth-child(even) {
@@ -28,8 +28,12 @@
             text-align: center;
         }
 
-        thead tr {
+        thead > tr > th {
+            position: sticky;
+            top: 0;
             background-color: gray;
+            border: 1px solid black;
+            
         }
 
         tfoot tr {
@@ -47,29 +51,6 @@
 </head>
 <body>
     <h1>Messing arround with HTML tables</h1>
-
-    <table>
-        <tr>
-            <th colspan="3">Header 01</th>
-        </tr>
-        <tr>
-            <td>Data 01</td> <td>Data 02</td> <td>Data 03</td>
-        </tr>
-        <tr>
-            <td>Data 04</td> <td>Data 05</td> <td>Data 06</td>
-        </tr>
-        <tr >
-            <td>Data 04</td> <td>Data 05</td> <td>Data 06</td>
-        </tr>
-        <tr>
-            <td>Data 04</td> <td>Data 05</td> <td>Data 06</td>
-        </tr>
-        <tr class="">
-            <td>Data 04</td> <td>Data 05</td> <td>Data 06</td>
-        </tr>
-    </table>
-
-    <h1>Big Tables</h1>
 
     <table>
         <thead>
