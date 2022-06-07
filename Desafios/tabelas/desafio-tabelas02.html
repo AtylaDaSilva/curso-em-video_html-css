@@ -30,6 +30,29 @@
             font-size: 20px;
             padding: 5px;
         }
+
+        table#tb02 {
+            border-collapse: collapse;
+            height: 80px;
+            width: 510px;
+            margin-top: 50px;
+        }
+
+        table#tb02 td {
+            height: 25px;
+        }
+
+        .col_name {
+            background-color: lightblue;
+        }
+
+        .col_green {
+            background-color: lightgreen;
+        }
+
+        .col_prof {
+            background-color: crimson;
+        }
     </style>
 </head>
 <body>
@@ -95,6 +118,57 @@
                 <td>0.0</td>
             </tr>
         </tbody>
+    </table>
+
+    <table id="tb02">
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="col_name">
+            <col class="col_green" span="2">
+            <col class="col_prof">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
+        </tr>
     </table>
 </body>
 </html>
