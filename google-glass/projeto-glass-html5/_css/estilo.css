@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Bubblegum";
+    src: url("../_fonts/bubblegum-sans-regular.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: "Computer-Font";
+    src: url("../_fonts/computer-font.ttf") format("TrueType");
+}
+
+body {
+    background-color: #dddddd;
+}
+
+div.white_bg {
+    background-color: white;
+    width: 90vw;
+    margin: -20px auto -15px auto;
+    padding: 20px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-family: "Bubblegum";
+    font-weight: normal;
+    color: #626262;
+}
+
+header h2 {
+    font-weight: normal;
+    color: #878787;
+}
