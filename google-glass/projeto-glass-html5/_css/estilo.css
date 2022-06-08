@@ -33,3 +33,20 @@ header h2 {
     font-weight: normal;
     color: #878787;
 }
+
+nav.main_menu {
+    position: absolute;
+    top: 0px;
+    left: 69vw;
+}
+
+nav.main_menu ul > li{
+    display: inline-block;
+    background-color: #dcdcdc;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+hr {
+    color: #dddddd;
+}
