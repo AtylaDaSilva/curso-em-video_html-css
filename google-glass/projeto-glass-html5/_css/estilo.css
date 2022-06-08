@@ -26,12 +26,15 @@ header {
 header h1 {
     font-family: "Bubblegum";
     font-weight: normal;
+    font-size: 3em;
     color: #626262;
+    margin: 0;
 }
 
 header h2 {
     font-weight: normal;
     color: #878787;
+    margin: 5px 0px;
 }
 
 nav.main_menu {
