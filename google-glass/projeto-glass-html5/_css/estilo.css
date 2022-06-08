@@ -55,8 +55,31 @@ hr {
 }
 
 .main_article {
-    width: 60vw;
+    width: 57vw;
     border-right: 1px solid rgb(136, 136, 136);
+    padding: 0px 30px 0px 10px;
+}
+
+.main_article h2 {
+    font-family: "Bubblegum";
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.main_article h3 {
+    background-color: #dddddd;
+    padding: 5px;
+    color: #606060;
+}
+
+.main_article h4 {
+    margin-top: 5px;
+}
+
+.main_article p, .side_article p {
+    text-indent: 30px;
 }
 
 .side_article {
@@ -66,4 +89,22 @@ hr {
     top: 19vh;
     left: 65vw;
     padding: 15px;
+}
+
+.crumbs {
+    color: gray;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h4 {
+    color: gray;
+}
+
+#p_last-updated {
+    text-align: right;
+    padding-right: 15px;
 }
