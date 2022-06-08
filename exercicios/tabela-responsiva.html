@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Responsiva</title>
     <style>
+        p {
+            font-size: 1.3em;
+        }
+
+        caption {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            background-color: lightsteelblue;
+        }
+
         table {
             border-collapse: collapse;
             text-align: center;
@@ -14,16 +24,17 @@
 
         td, th {
             border: 1px solid black;
-            height: 25px;
+            height: 15px;
+            width: 100px;
+            padding: 10px;
         }
 
         th {
-            width: 132px;
-            background-color: darkgray;
+            background-color: lightsteelblue;
         }
 
         tr:nth-child(2n) {
-            background-color: lightgray;
+            background-color: lightblue;
         }
 
         .responsive_container {
