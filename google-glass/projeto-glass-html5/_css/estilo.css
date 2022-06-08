@@ -53,3 +53,17 @@ nav.main_menu ul > li{
 hr {
     color: #dddddd;
 }
+
+.main_article {
+    width: 60vw;
+    border-right: 1px solid rgb(136, 136, 136);
+}
+
+.side_article {
+    background-color: #dddddd;
+    width: 29%;
+    position: absolute;
+    top: 19vh;
+    left: 65vw;
+    padding: 15px;
+}
