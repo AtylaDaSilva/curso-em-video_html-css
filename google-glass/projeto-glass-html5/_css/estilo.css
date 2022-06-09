@@ -21,6 +21,7 @@ div.white_bg {
 
 header {
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 header h1 {
@@ -40,7 +41,11 @@ header h2 {
 nav.main_menu {
     position: absolute;
     top: 0px;
-    left: 69vw;
+    left: 65vw;
+}
+
+nav.main_menu ul {
+    padding: 0px;
 }
 
 nav.main_menu ul > li{
