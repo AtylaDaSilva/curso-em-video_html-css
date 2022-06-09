@@ -78,11 +78,21 @@ hr {
     margin-top: 5px;
 }
 
+caption {
+    color: gray;
+    font-weight: bold;
+    padding: 3px;
+}
+
+caption sub {
+    text-align: right;
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
     height: 150px;
-    width: 500px;
+    width: 450px;
 }
 
 th, td {
