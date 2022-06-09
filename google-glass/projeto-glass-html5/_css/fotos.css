@@ -9,4 +9,24 @@
     box-shadow: 1px 1px 5px black;
     width: 600px;
     margin: auto;
+    position: relative;
+}
+
+.picture-frame figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 27% 15px 15px 20%;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.137);
+    opacity: 0;
+}
+
+.picture-frame:hover figcaption {
+    transition-duration: .5s;
+    opacity: 1;
 }
