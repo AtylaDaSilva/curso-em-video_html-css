@@ -19,6 +19,8 @@ div.white_bg {
     padding: 20px;
 }
 
+/*Header*/
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -64,6 +66,13 @@ nav.main_menu a:hover {
     text-decoration: underline;
 }
 
+/*Header Image*/
+#img_header_glass {
+    position: absolute;
+    top: 7vh;
+    left: 76vw; 
+}
+
 hr {
     color: #dddddd;
 }
@@ -102,6 +111,42 @@ a:hover {
     text-decoration: underline;
     background-color: #dddddd;
     border-radius: 3px;
+}
+
+/*Main Article Images*/
+
+.picture-frame {
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.picture-frame figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 27% 15px 15px 20%;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.137);
+    opacity: 0;
+}
+
+.picture-frame:hover figcaption {
+    transition-duration: .5s;
+    opacity: 1;
+}
+
+/*Main Article Videos*/
+
+video#one-day {
+    height: 400px;
+    padding-left: 8vw;
 }
 
 caption {
@@ -156,6 +201,12 @@ th {
     padding: 5px;
     color: white;
     margin-bottom: 0px;
+}
+
+/*Side Article Videos*/
+
+video#how-it-feels {
+    width: 552px;
 }
 
 .crumbs {
