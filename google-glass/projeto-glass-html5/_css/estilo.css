@@ -78,10 +78,21 @@ hr {
     margin-top: 5px;
 }
 
+a {
+    text-decoration: none;
+    padding: 3px;
+}
+
+a:hover {
+    transition-duration: .5s;
+    text-decoration: underline;
+    background-color: #dddddd;
+    border-radius: 3px;
+}
+
 caption {
     color: gray;
     font-weight: bold;
-    padding: 3px;
 }
 
 caption sub {
