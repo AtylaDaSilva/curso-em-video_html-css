@@ -50,6 +50,15 @@ nav.main_menu ul > li{
     border-radius: 2px;
 }
 
+nav.main_menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav.main_menu a:hover {
+    text-decoration: underline;
+}
+
 hr {
     color: #dddddd;
 }
