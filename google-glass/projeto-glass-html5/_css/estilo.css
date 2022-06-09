@@ -77,6 +77,13 @@ hr {
     color: #dddddd;
 }
 
+/*Navigation Bread Crumbs*/
+.crumbs {
+    color: gray;
+}
+
+/*Main Article*/
+
 .main_article {
     width: 57vw;
     border-right: 1px solid rgb(136, 136, 136);
@@ -99,6 +106,20 @@ hr {
 
 .main_article h4 {
     margin-top: 5px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h4 {
+    color: gray;
+}
+
+#p_last-updated {
+    text-align: right;
+    padding-right: 15px;
 }
 
 a {
@@ -149,6 +170,7 @@ video#one-day {
     padding-left: 8vw;
 }
 
+/*Main Article Table*/
 caption {
     color: gray;
     font-weight: bold;
@@ -180,6 +202,8 @@ th {
     text-indent: 30px;
 }
 
+
+/*Side Article*/
 .side_article {
     background-color: #dddddd;
     width: 29%;
@@ -209,23 +233,7 @@ video#how-it-feels {
     width: 552px;
 }
 
-.crumbs {
-    color: gray;
-}
-
-main {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
-
-h4 {
-    color: gray;
-}
-
-#p_last-updated {
-    text-align: right;
-    padding-right: 15px;
-}
+/*Footer*/
 
 footer {
     text-align: center;
