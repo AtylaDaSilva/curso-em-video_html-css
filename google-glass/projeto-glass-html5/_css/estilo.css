@@ -96,6 +96,13 @@ nav.main_menu a {
     padding-top: 6px;
 }
 
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    padding-bottom: 15px;
+}
+
 /*Main Article*/
 
 .main_article {
@@ -120,11 +127,6 @@ nav.main_menu a {
 
 .main_article h4 {
     margin-top: 5px;
-}
-
-main {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
 }
 
 h4 {
@@ -263,4 +265,9 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
+    padding-top: 14px;
+}
+
+footer p {
+    margin: 4px 0px
 }
