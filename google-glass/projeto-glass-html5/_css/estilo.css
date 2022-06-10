@@ -27,6 +27,8 @@ div.interface {
 header {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
 }
 
 header h1 {
@@ -78,13 +80,10 @@ nav.main_menu a:hover {
     left: 1142px;
 }
 
-hr {
-    color: #dddddd;
-}
-
 /*Navigation Bread Crumbs*/
 .crumbs {
     color: gray;
+    padding-top: 6px;
 }
 
 /*Main Article*/
