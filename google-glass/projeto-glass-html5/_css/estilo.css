@@ -186,8 +186,10 @@ caption {
     font-weight: bold;
 }
 
-caption sub {
-    text-align: right;
+caption span {
+    float: right;
+    font-size: .8em;
+    
 }
 
 table {
