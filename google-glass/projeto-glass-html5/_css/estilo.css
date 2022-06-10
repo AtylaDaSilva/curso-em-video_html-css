@@ -60,17 +60,23 @@ nav.main_menu ul {
 nav.main_menu ul > li{
     display: inline-block;
     background-color: #dcdcdc;
-    padding: 5px;
     border-radius: 2px;
+    padding: 5px;
+}
+
+nav.main_menu ul > li:hover {
+    background-color: #606060;
+    transition-duration: .2s;
+}
+
+nav.main_menu li:hover a {
+    color: white;
+    text-decoration: underline;
 }
 
 nav.main_menu a {
     text-decoration: none;
     color: black;
-}
-
-nav.main_menu a:hover {
-    text-decoration: underline;
 }
 
 /*Header Image*/
@@ -130,13 +136,13 @@ h4 {
     padding-right: 15px;
 }
 
-a {
+main a {
     text-decoration: none;
     color: #626262;
     padding: 3px;
 }
 
-a:hover {
+main a:hover {
     transition-duration: .5s;
     text-decoration: underline;
     background-color: #dddddd;
