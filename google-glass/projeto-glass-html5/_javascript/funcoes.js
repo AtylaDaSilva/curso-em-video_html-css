@@ -2,7 +2,6 @@ const img = document.querySelector("#img_header_glass");
 const defaultSrc = img.src; //Default page image path
 const nav = document.getElementsByClassName("main_menu_li");
 
-console.log(defaultSrc);
 addListeners();
 
 function addListeners() {
