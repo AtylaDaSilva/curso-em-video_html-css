@@ -1,6 +1,8 @@
 const img = document.querySelector("#img_header_glass");
+const defaultSrc = img.src; //Default page image path
 const nav = document.getElementsByClassName("main_menu_li");
 
+console.log(defaultSrc);
 addListeners();
 
 function addListeners() {
@@ -11,6 +13,7 @@ function addListeners() {
 }
 
 function changeImg() {
+    //References the element that triggered the event
     const id = this.id;
 
     switch (id) {
@@ -33,5 +36,6 @@ function changeImg() {
 }
 
 function revertImg() {
-    img.src = "_imagens/glass-oculos-preto-peq.png";
+    //Reverts back to the default page image
+    img.src = defaultSrc;
 }
