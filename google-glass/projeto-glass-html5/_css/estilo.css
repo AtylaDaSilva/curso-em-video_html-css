@@ -334,6 +334,61 @@ section.specs_article_group {
     height: 66vh;
 }
 
+/*Galeria*/
+
+section.galeria {
+    margin-left: 17vw;
+}
+
+.galeria_row {
+    display: block;
+}
+
+.galeria_picture_frame {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+}
+
+.galeria_picture_frame img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.galeria_picture_frame:hover {
+    transition-duration: .2s;
+    height: 300px;
+    width: 300px;
+}
+
+.galeria_picture_frame figure {
+    position: relative;
+    margin: 0px;
+}
+
+.galeria_picture_frame figcaption {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 255px;
+    padding: 5px;
+    width: 290px;
+    font-size: .9em;
+    text-align: center;
+    opacity: 0;
+}
+
+.galeria_picture_frame:hover figcaption {
+    transition-duration: .5s;
+    opacity: 1;
+}
+
 /*Footer*/
 
 footer {
