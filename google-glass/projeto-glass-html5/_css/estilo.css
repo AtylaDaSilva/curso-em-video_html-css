@@ -269,6 +269,7 @@ video#how-it-feels {
 /*Full-Page Article*/
 
 .full-page_article {
+    /*Some code here later*/
 }
 
 .full-page_article p {
@@ -276,13 +277,20 @@ video#how-it-feels {
     text-align: justify;
 }
 
+/*Full Page Article Images*/
+
+img#glass_esquema {
+    margin-left: 150px;
+}
+
 /*Floating Panel*/
 
 aside.floating_panel {
     position: absolute;
-    top: 390px;
-    left: 600px;
+    top: 402px;
+    left: 820px;
     width: 415px;
+    padding: 5px;
 }
 
 .floating_panel h2 {
