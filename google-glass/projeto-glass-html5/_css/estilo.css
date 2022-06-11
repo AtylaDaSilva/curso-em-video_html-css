@@ -268,10 +268,6 @@ video#how-it-feels {
 
 /*Full-Page Article*/
 
-.full-page_article {
-    /*Some code here later*/
-}
-
 .full-page_article p {
     text-indent: 30px;
     text-align: justify;
@@ -287,7 +283,7 @@ img#glass_esquema {
 
 aside.floating_panel {
     position: absolute;
-    top: 402px;
+    top: 362px;
     left: 820px;
     width: 415px;
     padding: 5px;
