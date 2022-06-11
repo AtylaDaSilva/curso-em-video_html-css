@@ -3,11 +3,6 @@
     src: url("../_fonts/bubblegum-sans-regular.otf") format("OpenType");
 }
 
-@font-face {
-    font-family: "Computer-Font";
-    src: url("../_fonts/computer-font.ttf") format("TrueType");
-}
-
 body {
     background-color: #dddddd;
 }
@@ -146,6 +141,8 @@ h4 {
 #p_last-updated {
     text-align: right;
     padding-right: 15px;
+    font-size: .9em;
+    color: #808080;
 }
 
 .main_article a {
@@ -267,6 +264,55 @@ th {
 video#how-it-feels {
     width: 100%;
     box-sizing: border-box;
+}
+
+/*Full-Page Article*/
+
+.full-page_article {
+}
+
+.full-page_article p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+/*Floating Panel*/
+
+aside.floating_panel {
+    position: absolute;
+    top: 390px;
+    left: 600px;
+    width: 415px;
+}
+
+.floating_panel h2 {
+    background-color: #606060;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.floating_panel h3 {
+    color: gray;
+    margin-top: 0px;
+}
+
+.floating_panel p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/*Floating Panel Image*/
+
+.floating_panel img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*Specs Article Group*/
+
+section.specs_article_group {
+    height: 63.5vh;
 }
 
 /*Footer*/
