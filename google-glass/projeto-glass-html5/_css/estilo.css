@@ -82,7 +82,7 @@ nav.main_menu a {
 }
 
 #glass_logo {
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 /*Navigation Bread Crumbs*/
@@ -240,7 +240,7 @@ th {
     background-color: #dddddd;
     width: 35%;
     position: absolute;
-    top: 257px;
+    top: 226px;
     left: 848px;
     padding: 15px;
 }
