@@ -119,7 +119,7 @@ main {
 }
 
 .main_article h2 {
-    font-family: "Bubblegum";
+    font-family: "Bubblegum", sans-serif;
     font-weight: normal;
     font-size: 2em;
     margin-bottom: 0px;
@@ -132,7 +132,7 @@ main {
     color: #606060;
 }
 
-.main_article h4 {
+.article_author {
     margin-top: 5px;
 }
 
@@ -270,6 +270,18 @@ video#how-it-feels {
 
 
 /*Full-Page Article*/
+
+.full-page_article {
+    padding-left: 10px;
+}
+
+.full-page_article h2 {
+    font-family: "Bubblegum", sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 0px;
+    color: gray;
+}
 
 .full-page_article p {
     text-indent: 30px;
