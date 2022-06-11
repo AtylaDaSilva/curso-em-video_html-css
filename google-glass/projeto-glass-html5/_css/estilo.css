@@ -106,6 +106,7 @@ main {
     text-align: justify;
     border-bottom: 1px solid rgb(136, 136, 136);
     padding-bottom: 15px;
+    height: 100%;
 }
 
 /*Main Article*/
@@ -114,6 +115,7 @@ main {
     width: 57%;
     border-right: 1px solid rgb(136, 136, 136);
     padding: 0px 30px 0px 10px;
+    display: inline-block;
 }
 
 .main_article h2 {
@@ -239,9 +241,10 @@ th {
 .side_article {
     background-color: #dddddd;
     width: 35%;
-    position: absolute;
+    /* position: absolute;
     top: 226px;
-    left: 848px;
+    left: 848px; */
+    float: right;
     padding: 15px;
 }
 
