@@ -241,11 +241,9 @@ th {
 .side_article {
     background-color: #dddddd;
     width: 35%;
-    /* position: absolute;
-    top: 226px;
-    left: 848px; */
     float: right;
     padding: 15px;
+    box-shadow: 0px 1px 3px black;
 }
 
 .side_article h2 {
