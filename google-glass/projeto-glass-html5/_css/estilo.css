@@ -11,7 +11,7 @@ div.interface {
     background-color: white;
     min-width: 70vw;
     max-width: 70vw;
-    margin: -20px auto -15px auto;
+    margin: -8px  auto -15px auto;
     padding: 20px;
     box-shadow: 0px 0px 5px black;
     position: relative;
@@ -267,6 +267,8 @@ video#how-it-feels {
     box-sizing: border-box;
 }
 
+
+
 /*Full-Page Article*/
 
 .full-page_article p {
@@ -317,7 +319,7 @@ aside.floating_panel {
 /*Specs Article Group*/
 
 section.specs_article_group {
-    height: 63.5vh;
+    height: 66vh;
 }
 
 /*Footer*/
