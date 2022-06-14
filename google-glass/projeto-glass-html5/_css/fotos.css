@@ -1,0 +1,43 @@
+#galeria {
+    background: slateblue;
+}
+
+.galeria_row {
+    background: slategray;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 18vw;
+}
+
+#galeria figure {
+    background: palegreen;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#galeria img {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+#galeria figcaption {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-shadow: 1px 0px 3px black;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.galeria_row > figure:hover {
+    background: red;;
+}
