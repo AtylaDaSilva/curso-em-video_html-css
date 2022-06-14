@@ -1,22 +1,20 @@
 #galeria {
-    background: slateblue;
 }
 
 .galeria_row {
-    background: slategray;
     box-sizing: border-box;
-    width: 100%;
+    width: 53%;
     margin-left: 18vw;
 }
 
 #galeria figure {
-    background: palegreen;
     height: 200px;
     width: 200px;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    position: relative;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .9);
+    background: lightgray;
 }
 
 #galeria img {
@@ -28,16 +26,29 @@
 #galeria figcaption {
     position: absolute;
     top: 75%;
-    left: 5%;
+    left: 4.5%;
     padding: 5px;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background: rgba(0, 0, 0, 0.411);
     color: white;
-    text-shadow: 1px 0px 3px black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     font-weight: bold;
+    font-size: .5em;
+    opacity: 0;
+}
+
+#galeria figure:hover figcaption {
+    transition-duration: .1s;
     opacity: 1;
 }
 
-.galeria_row > figure:hover {
-    background: red;;
+#galeria #bottom_row figure:hover{
+    transition-duration: .2s;
+    transform: scale(2.2) translate(0px, -52px);
+}
+
+#galeria #top_row figure:hover{
+    transition-duration: .2s;
+    transform: scale(2.2) translate(0px, 52px);
 }
