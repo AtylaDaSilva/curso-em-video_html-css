@@ -32,14 +32,21 @@
                     <h4 class="article_author">por Gustavo Guanabara</h6>
                     <p id="p_last-updated"><em>Atualizado em 01/Maio/2013</em></p>
                     <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
-                    <img id="glass_esquema" src="_imagens/glass-esquema-marcado.jpg" alt="Esquema do Google Glass">
+                    <figure>
+                        <img id="glass_esquema" src="_imagens/glass-esquema-marcado.jpg" alt="Esquema do Google Glass" usemap="#map_glass-esquema">
+                        <map name="map_glass-esquema">
+                            <area id="area_screen" shape="poly" coords="167, 207, 248, 195, 249, 230, 169, 242" href="#">
+                            <area id="area_touch" shape="poly" coords="11, 133, 65, 203, 67, 237, 10, 153", href="#">
+                            <area id="area_battery" shape="circle" coords="73, 50, 20", href="#">
+                        </map>
+                    </figure>
                 </article>
                 <aside class="floating_panel">
-                    <article>
+                    <article class="hide_article">
                         <h3>Clique sobre as áreas destacadas em vermelho</h3>
                         <img src="_imagens/mao.png" alt="">
                     </article>
-                    <article>
+                    <article id="article_tela" class="hide_article">
                         <h2>Tela</h2>
                         <h3>Como o Mundo Vai Aparecer</h3>
                         <p>
@@ -47,19 +54,19 @@
                         </p>
                         <img src="_imagens/det-tela.jpg" alt="Close-up da tela do Google Glass">
                     </article>
-                    <article>
+                    <article id="article_camera" class="hide_article">
                         <h2>Câmera</h2>
                         <h3>Filme e fotografe a qualquer momento</h3>
                         <img src="_imagens/det-camera.jpg" alt="">
                         <p>Com o Google Glass será possível tirar fotos com até 5 megapixels e gravar vídeos com 720 linhas de resolução. Os primeiros vídeos e fotos capturados com o aparelho já começaram a circular pela rede, mas até agora ninguém tem muitas informações técnicas.</p>
                     </article>
-                    <article>
+                    <article id="article_touch" class="hide_article">
                         <h2>Sensores</h2>
                         <h3>A sensibilidade de um simples óculos</h3>
                         <p>Quem pensa que para comandar o Google Glass vai precisar de teclado e mouse, se engana redondamente. O dispositivo vem com vários tipos de sensores e microfones embutidos. Assim, para dar um comando, basta falar ou passar o dedo na lateral do óculos.</p>
                         <img src="_imagens/det-touch.jpg" alt="">
                     </article>
-                    <article>
+                    <article id="article_battery" class="hide_article">
                         <h2>Bateria e Gadgets</h2>
                         <h3>Quais são os dispositivos que complementam o Glass?</h3>
                         <img src="_imagens/det-bateria.jpg" alt="">

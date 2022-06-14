@@ -321,6 +321,14 @@ aside.floating_panel {
     text-indent: 30px;
 }
 
+.hide_article {
+    display: none;
+}
+
+.show_article {
+    display: block;
+}
+
 /*Floating Panel Image*/
 
 .floating_panel img {
