@@ -39,6 +39,12 @@ function showArticle_tela() {
     article.className = "show_article";
 }
 
+function showArticle_camera() {
+    hideArticles();
+    const article = document.querySelector("#article_camera");
+    article.className = "show_article";
+}
+
 function showArticle_touch() {
     hideArticles();
     const article = document.querySelector("#article_touch");
@@ -69,11 +75,13 @@ const nav = document.getElementsByClassName("main_menu_li");
 
 //Map area references
 const area_screen = document.querySelector("#area_screen");
+const area_camera = document.querySelector("#area_camera");
 const area_touch = document.querySelector("#area_touch");
 const area_battery = document.querySelector("#area_battery");
 
 //Map Listeners
 area_screen.addEventListener("click", showArticle_tela);
+area_camera.addEventListener("click", showArticle_camera);
 area_touch.addEventListener("click", showArticle_touch);
 area_battery.addEventListener("click", showArticle_battery);
 

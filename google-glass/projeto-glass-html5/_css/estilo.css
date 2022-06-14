@@ -333,7 +333,12 @@ aside.floating_panel {
 
 .floating_panel img {
     box-sizing: border-box;
-    width: 100%;
+    
+}
+
+.floating_pic {
+    float: inline-start;
+    padding-right: 15px;
 }
 
 /*Specs Article Group*/
