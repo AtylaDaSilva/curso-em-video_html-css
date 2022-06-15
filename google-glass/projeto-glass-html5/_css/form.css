@@ -1,3 +1,24 @@
-main {
-    padding-left: 10px;
+form section {
+    border: 1px solid darkgray;
+    margin: 0px 0px 25px 0px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+form section h3 {
+    background: white;
+    color: gray;
+    font-size: 1.1em;
+    margin: 0px;
+}
+
+#div_personal-info {
+    border-bottom: 1px solid gray;
+}
+
+#form_sex {
+    border: 1px solid darkgray;
+    padding: 15px;
+    width: 15%;
+    margin: 20px 0px 20px 20px; 
 }
