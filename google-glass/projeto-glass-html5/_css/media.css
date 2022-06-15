@@ -14,6 +14,11 @@ main section {
     position: relative;
 }
 
+section h3 {
+    padding-left: 225px;
+    color: #626262;
+}
+
 #tv-radio {
     background: url("../_imagens/radio-tv.png") no-repeat;
     width: 900px;
