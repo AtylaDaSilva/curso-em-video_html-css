@@ -1,0 +1,46 @@
+main {
+    padding-left: 10px;
+}
+
+main h2 {
+    font-family: "Bubblegum", sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: gray;
+    margin-bottom: 0px;
+}
+
+main section {
+    position: relative;
+}
+
+#tv-radio {
+    background: url("../_imagens/radio-tv.png") no-repeat;
+    width: 900px;
+    height: 573px;
+    margin: auto;
+}
+
+#video {
+    position: absolute;
+    top: 114px;
+    left: 298px;
+    width: 425px;
+    height: 301px;
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#video video {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+#tv-radio audio {
+    position: absolute;
+    top: 537px;
+    left: 790px;
+}
