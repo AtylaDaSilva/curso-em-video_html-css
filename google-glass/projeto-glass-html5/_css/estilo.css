@@ -118,7 +118,7 @@ main {
     display: inline-block;
 }
 
-.main_article h2 {
+main h2 {
     font-family: "Bubblegum", sans-serif;
     font-weight: normal;
     font-size: 2em;
@@ -126,7 +126,7 @@ main {
     color: gray;
 }
 
-.main_article h3 {
+main h3 {
     background-color: #dddddd;
     padding: 5px;
     color: #606060;
