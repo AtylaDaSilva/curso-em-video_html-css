@@ -1,47 +1,80 @@
-Google Glass
-A revolução do Google está chegando
-
-[AQUI ENTRA UMA FOTO]
-
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
-
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
-
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
-
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
-
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
-
-
-[BOTÃO ENVIAR]
-
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/form.css">
+    <title>Google Glass - Fale Conosco</title>
+</head>
+<body>
+    <div class="interface">
+        <header>
+            <nav class="main_menu">
+                <ul type="none">
+                    <li id="home" class="main_menu_li"><a href="index.html">Home</a></li>
+                    <li id="specs" class="main_menu_li"><a href="specs.html">Especificações</a></li>
+                    <li id="fotos" class="main_menu_li"><a href="fotos.html">Fotos</a></li>
+                    <li id="media" class="main_menu_li"><a href="multimidia.html">Multimídia</a></li>
+                    <li id="fale-conosco" class="main_menu_li"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            <img id="glass_logo" src="_imagens/glass-logo-peq.jpg" alt="Logo do Google Glass">
+            <img id="img_header_glass" src="_imagens/contato.png" alt="">
+        </header>
+        <main>
+            <nav class="crumbs"><a href="#">Tecnologia</a> &rAarr; <a href="#">Inovações</a></nav>
+            <h2>Saiba tudo sobre o Google Glass</h2>
+            <h4 class="article_author">por Gustavo Guanabara</h6>
+            <p id="p_last-updated"><em>Atualizado em 23/Abril/2013</em></p>
+            <form method="GET">
+                <section class="form_personal-info">
+                    <div>
+                        <h3>Indentificação do Usuário</h3>
+                        <label for="input_name">Nome: </label> <input type="text" placeholder="Nome Completo"  id="input_nome" required>
+                        <label for="input_passw">Senha: </label> <input type="password" placeholder="8 Dígitos" name="" id="input_passw" required>
+                    </div>
+                    <div>
+                        <label for="input_email">E-mail: </label> <input type="email" placeholder="youremail@service.com" name="" id="input_email" required>
+                            <div>
+                                <h3>Sexo</h3>
+                                <input type="radio" name="" id="input_sex-m"> <label for="input_sex">Masculino</label>
+                                <input type="radio" name="" id="input_sex-f"> <label for="input_sex-f">Feminino</label>
+                            </div>
+                    </div>
+                </section>
+                <section class="form_address">
+                    <h3>Endereço</h3>
+                    <label for="input_adrr">Logradouro: </label> <input type="text" placeholder="Rua, Av, Trav, ..." name="" id="input_adrr">
+                    <label for="input_addr_number">Número: </label> <input type="number" name="" id="input_addr_number">
+                    <label for="input_state">Estado: </label> <select name="" id="input_state">
+                        <option value="">--Selecione seu Estado--</option>
+                    </select>
+                    <label for="input_city">Cidade: </label> <input type="text" placeholder="Sua Cidade" name="" id="input_city">
+                </section>
+                <section class="form_msg">
+                    <h3>Mensagem</h3>
+                    <label for="input_range">Grau de Urgência:</label> <input type="range" min="1" max="10" name="" id="input_range">
+                    <label for="input_msg">Mensagem: </label> <input type="text" placeholder="Sua Mensagem..." name="" id="input_msg">
+                </section>
+                <section class="form_purchase">
+                    <h3>Quero um Google Glass</h3>
+                    <input type="checkbox" name="" id="checkbox_purchase"> <label for="checkbox_purchase">Gostaria de adquirir um Google Glass&reg; quando disponível</label>
+                    <label for="input_color">Cor: </label> <input type="color" value="#0000ff" name="" id="input_color">
+                    <label for="input_quant">Quantidade: </label> <input type="number" name="" id="input_quant">
+                    <label for="input_price">Preço Total R$</label> <input type="text" placeholder="Total a Pagar">
+                </section>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <p><i>&copy; Copyright 2013 - by Gustavo Guanabara | Facebook / Twitter</i></p>
+            <p><i>Desenvolvido por Atyla da Silva | GitHub / Twitter</i></p>
+        </footer>
+    </div>
+    <script src="_javascript/funcoes.js"></script>
+</body>
+</html>
