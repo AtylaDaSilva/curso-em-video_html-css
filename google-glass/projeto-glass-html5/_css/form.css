@@ -18,7 +18,9 @@ form section h3 {
 }
 
 div#credencials {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
 
 div#credencials input {
@@ -30,8 +32,8 @@ input#input_passw {
 }
 
 div#email {
-    border-top: 1px solid black;
-    padding-top: 15px;
+    padding-top: 10px;
+    background: url("../_imagens/icone-contato.png") no-repeat right/contain;
 }
 
 #form_sex {
@@ -43,8 +45,16 @@ div#email {
     text-align: left;
 }
 
+section#address {
+    background: url("../_imagens/icone-endereco.png") no-repeat right/30%;
+}
+
 select#state, input#city {
     margin: 10px 5px 5px 0px;
+}
+
+section#msg-form {
+    background: url("../_imagens/icone-mensagem.png") no-repeat right/contain;
 }
 
 input#msg {
@@ -52,7 +62,18 @@ input#msg {
     margin-bottom: 5px;
 }
 
+section#purchase {
+    background: url("../_imagens/icone-pagamento.png") no-repeat right/contain;
+}
+
 section#purchase input {
     margin: 5px;
+}
+
+form input#send-button {
+    background: url("../_imagens/botao-enviar.png") no-repeat center/128px 53px;
+    height: 27px;
+    width: 110px;
+    padding: 0px;
     
 }
