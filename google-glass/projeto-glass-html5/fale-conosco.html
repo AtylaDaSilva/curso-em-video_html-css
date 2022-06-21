@@ -37,14 +37,16 @@
                         <label for="input_name">Nome: </label> <input type="text" placeholder="Nome Completo"  id="input_nome" required> <br>
                         <label for="input_passw">Senha: </label> <input type="password" placeholder="8 Dígitos" name="" id="input_passw" required>
                     </div>
-                    <label for="input_email">E-mail: </label> <input type="email" placeholder="youremail@service.com" name="" id="input_email" required>
-                    <fieldset>
-                        <legend>Sexo</legend>
-                        <input type="radio" name="" id="input_sex-m"> <label for="input_sex">Masculino</label>
-                        <br>
-                        <input type="radio" name="" id="input_sex-f"> <label for="input_sex-f">Feminino</label>
-                    </fieldset>
-                    <label for="birthdate">Data de Nascimento</label> <input type="date" name="" id="birthdate">
+                    <div id="email">
+                        <label for="input_email">E-mail: </label> <input type="email" placeholder="youremail@service.com" name="" id="input_email" required>
+                        <fieldset id="sex">
+                            <legend>Sexo</legend>
+                            <input type="radio" name="" id="input_sex-m"> <label for="input_sex">Masculino</label>
+                            <br>
+                            <input type="radio" name="" id="input_sex-f"> <label for="input_sex-f">Feminino</label>
+                        </fieldset>
+                        <label for="birthdate">Data de Nascimento</label> <input type="date" name="" id="birthdate">
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Endereço</legend>
@@ -61,7 +63,7 @@
                     <legend>Mensagem</legend>
                     <label for="input_range">Grau de Urgência:</label> <span>Min</span> <input type="range" min="1" max="10" name="" id="input_range"> <span>Max</span>
                     <br>
-                    <label for="input_msg">Mensagem: </label> <br> <input type="text" size="75" placeholder="Sua Mensagem..." name="" id="msg">
+                    <label for="input_msg">Mensagem: </label> <br> <input type="text" size="65" placeholder="Sua Mensagem..." name="" id="msg">
                 </fieldset>
                 <fieldset id="purchase">
                     <legend>Quero um Google Glass&COPY;</legend>
