@@ -1,7 +1,7 @@
 .galeria_row {
     box-sizing: border-box;
-    width: 53%;
-    margin-left: 18vw;
+    width: 100%;
+    margin-left: 15%;
 }
 
 #galeria figure {
@@ -43,10 +43,10 @@
 
 #galeria #bottom_row figure:hover{
     transition-duration: .2s;
-    transform: scale(2.2) translate(0px, -52px);
+    transform: scale(1.5);
 }
 
 #galeria #top_row figure:hover{
     transition-duration: .2s;
-    transform: scale(2.2) translate(0px, 52px);
+    transform: scale(1.5);
 }
