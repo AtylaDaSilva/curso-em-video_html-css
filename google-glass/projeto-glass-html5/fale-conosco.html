@@ -32,42 +32,48 @@
             <p id="p_last-updated"><em>Atualizado em 01/Maio/2013</em></p>
             <form>
                 <section class="form_personal-info">
-                    <div id="div_personal-info">
-                        <div>
-                            <h3>Indentificação do Usuário</h3>
-                            <label for="input_name">Nome: </label> <input type="text" placeholder="Nome Completo"  id="input_nome" required>
-                        </div>
-                        <div><label for="input_passw">Senha: </label> <input type="password" placeholder="8 Dígitos" name="" id="input_passw" required></div>
+                    <div id="credencials">
+                        <h3>Indentificação do Usuário</h3>
+                        <label for="input_name">Nome: </label> <input type="text" placeholder="Nome Completo"  id="input_nome" required> <br>
+                        <label for="input_passw">Senha: </label> <input type="password" placeholder="8 Dígitos" name="" id="input_passw" required>
                     </div>
-                    <div>
-                        <div><label for="input_email">E-mail: </label> <input type="email" placeholder="youremail@service.com" name="" id="input_email" required></div>
+                    <div id="email">
+                        <label for="input_email">E-mail: </label> <input type="email" placeholder="youremail@service.com" name="" id="input_email" required>
                         <div id="form_sex">
                             <h3>Sexo</h3>
                             <input type="radio" name="" id="input_sex-m"> <label for="input_sex">Masculino</label>
+                            <br>
                             <input type="radio" name="" id="input_sex-f"> <label for="input_sex-f">Feminino</label>
                         </div>
+                        <label for="birthdate">Data de Nascimento</label> <input type="date" name="" id="birthdate">
                     </div>
                 </section>
-                <section class="form_address">
+                <section id="address">
                     <h3>Endereço</h3>
                     <label for="input_adrr">Logradouro: </label> <input type="text" placeholder="Rua, Av, Trav, ..." name="" id="input_adrr">
                     <label for="input_addr_number">Número: </label> <input type="number" name="" id="input_addr_number">
-                    <label for="input_state">Estado: </label> <select name="" id="input_state">
+                    <br>
+                    <label for="state">Estado: </label> <select name="" id="state">
                         <option value="">--Selecione seu Estado--</option>
                     </select>
-                    <label for="input_city">Cidade: </label> <input type="text" placeholder="Sua Cidade" name="" id="input_city">
+                    <br>
+                    <label for="city">Cidade: </label> <input type="text" placeholder="Sua Cidade" name="" id="city">
                 </section>
                 <section class="form_msg">
                     <h3>Mensagem</h3>
-                    <label for="input_range">Grau de Urgência:</label> <input type="range" min="1" max="10" name="" id="input_range">
-                    <label for="input_msg">Mensagem: </label> <input type="text" placeholder="Sua Mensagem..." name="" id="input_msg">
+                    <label for="input_range">Grau de Urgência:</label> <span>Min</span> <input type="range" min="1" max="10" name="" id="input_range"> <span>Max</span>
+                    <br>
+                    <label for="input_msg">Mensagem: </label> <br> <input type="text" size="75" placeholder="Sua Mensagem..." name="" id="msg">
                 </section>
-                <section class="form_purchase">
+                <section id="purchase">
                     <h3>Quero um Google Glass</h3>
                     <input type="checkbox" name="" id="checkbox_purchase"> <label for="checkbox_purchase">Gostaria de adquirir um Google Glass&reg; quando disponível</label>
+                    <br>
                     <label for="input_color">Cor: </label> <input type="color" value="#0000ff" name="" id="input_color">
+                    <br>
                     <label for="input_quant">Quantidade: </label> <input type="number" name="" id="input_quant">
-                    <label for="input_price">Preço Total R$</label> <input type="text" placeholder="Total a Pagar">
+                    <br>
+                    <label for="input_price">Preço Total: R$</label> <input type="text" placeholder="Total a Pagar">
                 </section>
                 <input type="submit" value="Enviar">
             </form>

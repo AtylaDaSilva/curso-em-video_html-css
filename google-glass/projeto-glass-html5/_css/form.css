@@ -1,3 +1,8 @@
+form {
+    width: 500px;
+    margin: auto;
+}
+
 form section {
     border: 1px solid darkgray;
     margin: 0px 0px 25px 0px;
@@ -12,13 +17,42 @@ form section h3 {
     margin: 0px;
 }
 
-#div_personal-info {
-    border-bottom: 1px solid gray;
+div#credencials {
+    padding-bottom: 15px;
+}
+
+div#credencials input {
+    margin: 5px;
+}
+
+input#input_passw {
+    width: 100px;
+}
+
+div#email {
+    border-top: 1px solid black;
+    padding-top: 15px;
 }
 
 #form_sex {
     border: 1px solid darkgray;
-    padding: 15px;
-    width: 15%;
-    margin: 20px 0px 20px 20px; 
+    padding: 5px;
+    width: 130px;
+    height: 70px;
+    margin: 20px 0px 20px 20px;
+    text-align: left;
+}
+
+select#state, input#city {
+    margin: 10px 5px 5px 0px;
+}
+
+input#msg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section#purchase input {
+    margin: 5px;
+    
 }
