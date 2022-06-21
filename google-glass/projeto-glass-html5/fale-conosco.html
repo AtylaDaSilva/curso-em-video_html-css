@@ -48,10 +48,10 @@
                         <label for="birthdate">Data de Nascimento</label> <input type="date" name="" id="birthdate">
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset id="address">
                     <legend>Endereço</legend>
                     <label for="input_adrr">Logradouro: </label> <input type="text" placeholder="Rua, Av, Trav, ..." name="" id="input_adrr">
-                    <label for="input_addr_number">Número: </label> <input type="number" name="" id="input_addr_number">
+                    <label for="addr_number">Número: </label> <input type="number" name="" id="addr_number">
                     <br>
                     <label for="state">Estado: </label> <select name="" id="state">
                         <option value="">--Selecione seu Estado--</option>
@@ -59,11 +59,13 @@
                     <br>
                     <label for="city">Cidade: </label> <input type="text" placeholder="Sua Cidade" name="" id="city">
                 </fieldset>
-                <fieldset>
+                <fieldset id="msg-field">
                     <legend>Mensagem</legend>
-                    <label for="input_range">Grau de Urgência:</label> <span>Min</span> <input type="range" min="1" max="10" name="" id="input_range"> <span>Max</span>
+                    <div>
+                        <label for="input_range">Grau de Urgência:</label> <span>Min</span> <input type="range" min="1" max="10" name="" id="input_range"> <span>Max</span>
+                    </div>
                     <br>
-                    <label for="input_msg">Mensagem: </label> <br> <input type="text" size="65" placeholder="Sua Mensagem..." name="" id="msg">
+                    <label for="input_msg" id="msg_label">Mensagem: </label> <br> <input type="text" size="65" placeholder="Sua Mensagem..." name="" id="msg">
                 </fieldset>
                 <fieldset id="purchase">
                     <legend>Quero um Google Glass&COPY;</legend>

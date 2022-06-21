@@ -7,6 +7,12 @@ fieldset {
     margin-bottom: 15px;
 }
 
+fieldset legend {
+    color: #808080;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 div#credencials {
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
@@ -24,8 +30,39 @@ div#email {
     margin-top: 5px;
 }
 
+input#input_email {
+    width: 200px;
+}
+
 fieldset#sex {
     width: 120px;
     margin-top: 15px;
     
+}
+
+fieldset#address {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url("../_imagens/icone-endereco.png") no-repeat right/contain;
+}
+
+fieldset#address input, fieldset#address select {
+    margin-bottom: 15px;
+}
+
+input#addr_number {
+    width: 60px;
+}
+
+fieldset#msg-field {
+    background: url("../_imagens/icone-mensagem.png") no-repeat right/contain;
+}
+
+fieldset#purchase {
+    padding-bottom: 20px;
+    background: url("../_imagens/icone-pagamento.png") no-repeat right/contain;
+}
+
+fieldset#purchase input {
+    margin-top: 10px;
 }
