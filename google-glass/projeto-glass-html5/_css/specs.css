@@ -1,0 +1,77 @@
+/*Full-Page Article*/
+
+.full-page_article {
+    padding-left: 10px;
+}
+
+.full-page_article h2 {
+    font-family: "Bubblegum", sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.full-page_article p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+/*Full Page Article Images*/
+
+img#glass_esquema {
+    margin-left: 150px;
+}
+
+/*Floating Panel*/
+
+aside.floating_panel {
+    position: absolute;
+    top: 362px;
+    left: 820px;
+    width: 415px;
+    padding: 5px;
+}
+
+.floating_panel h2 {
+    background-color: #606060;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.floating_panel h3 {
+    color: gray;
+    margin-top: 0px;
+}
+
+.floating_panel p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.hide_article {
+    display: none;
+}
+
+.show_article {
+    display: block;
+}
+
+/*Floating Panel Image*/
+
+.floating_panel img {
+    box-sizing: border-box;
+    
+}
+
+.floating_pic {
+    float: inline-start;
+    padding-right: 15px;
+}
+
+/*Specs Article Group*/
+
+section.specs_article_group {
+    height: 66vh;
+}
