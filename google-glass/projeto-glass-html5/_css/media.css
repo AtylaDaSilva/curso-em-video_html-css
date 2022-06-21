@@ -15,7 +15,7 @@ main section {
 }
 
 section h3 {
-    padding-left: 225px;
+    padding-left: 5px;
     color: #626262;
 }
 
@@ -28,8 +28,8 @@ section h3 {
 
 #video {
     position: absolute;
-    top: 114px;
-    left: 298px;
+    top: 20%;
+    left: 11%;
     width: 425px;
     height: 301px;
     background: black;
@@ -46,6 +46,6 @@ section h3 {
 
 #tv-radio audio {
     position: absolute;
-    top: 537px;
-    left: 790px;
+    top: 87.5%;
+    left: 63%;
 }
