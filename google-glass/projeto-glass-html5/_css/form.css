@@ -73,3 +73,7 @@ fieldset#purchase {
 fieldset#purchase input {
     margin-top: 10px;
 }
+
+input#price {
+    width: 120px;
+}
