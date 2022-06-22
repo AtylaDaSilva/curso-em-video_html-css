@@ -56,6 +56,13 @@ input#addr_number {
 
 fieldset#msg-field {
     background: url("../_imagens/icone-mensagem.png") no-repeat right/contain;
+    padding-right: 0px;
+}
+
+textarea#msg {
+    opacity: .7;
+    margin-top: 5px;
+    width: 410px;
 }
 
 fieldset#purchase {
