@@ -63,6 +63,10 @@ textarea#msg {
     opacity: .7;
     margin-top: 5px;
     width: 410px;
+    max-width: 410px;
+    max-height: 167px;
+    min-width: 410px;
+    min-height: 167px;
 }
 
 fieldset#purchase {
